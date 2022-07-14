@@ -1,3 +1,4 @@
+// doing ajax because easy csrf handling w/their middleware lol
 $.ajax({
   method: "POST",
   url: "https://avatar.roblox.com/v1/avatar/thumbnail-customization",
