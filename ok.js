@@ -1,9 +1,3 @@
-/*
-as of July 14th, new avatar renders will not account for your thumbnail customizations.
-
-You still retain them, and once they actually rollout the feature, you can redraw your thumbnail to get it back.
-*/
-
 // doing ajax because easy csrf handling w/their middleware lol
 $.ajax({
   method: "POST",
