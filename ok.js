@@ -14,6 +14,7 @@ $.ajax({
         "yRotDeg": 0 // -60 to 60
     },
     "emoteAssetId": 0, // emote asset id
+    // idleAnimationAssetId used to exist here, it has since been removed.
     "thumbnailType": 1 // 1 = Closeup (headshot), 2 = FullBody (bodyshot). Closeup and FullBody can have different configurations.
   })
 });
