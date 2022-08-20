@@ -26,4 +26,4 @@ $.ajax({
     // idleAnimationAssetId used to exist here, it has since been removed.
     "thumbnailType": 1 // 1 = Closeup (headshot), 2 = FullBody (bodyshot). Closeup and FullBody can have different configurations.
   })
-});
+}).then(data => console.log(data)).fail(error => console.log(error.responseText));
