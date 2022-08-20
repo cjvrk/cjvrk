@@ -1,7 +1,13 @@
 // ! VIEW YOUR CURRENT AVATAR THUMBNAIL CUSTOMIZATIONS: https://avatar.roblox.com/v1/avatar/thumbnail-customizations
+
 // ! This script is using the API of an intentional feature, it's not a bug. Roblox may disable the ability for the thumbnail generator to use thumbnail customizations **at any time**.
 // ! The API was enabled two times before the Profile Picture Editor in the app was enabled; see: https://twitter.com/RobloxTrackers/status/1512460262607048715
 // ! You probably would only get terminated if you get caught using the feature inappropriately.
+
+/*
+!! After your first time of setting a thumbnail configuration, the thumbnail of that type can not go back to how it was originally.
+!! (i.e., using Idle Animations, camera position). It can only be reverted if Roblox disables this feature again.
+*/
 
 // doing ajax because easy csrf handling w/their middleware lol
 $.ajax({
