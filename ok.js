@@ -1,4 +1,6 @@
-// VIEW YOUR AVATAR THUMBNAIL CUSTOMIZATIONS: https://avatar.roblox.com/v1/avatar/thumbnail-customizations
+// ! VIEW YOUR CURRENT AVATAR THUMBNAIL CUSTOMIZATIONS: https://avatar.roblox.com/v1/avatar/thumbnail-customizations
+// ! This script is using the API of an intentional feature, it's not a bug. Roblox may disable the ability for the thumbnail generator to use thumbnail customizations **at any time**.
+// ! The API was enabled two times before the Profile Picture Editor in the app was enabled; see: https://twitter.com/RobloxTrackers/status/1512460262607048715
 
 // doing ajax because easy csrf handling w/their middleware lol
 $.ajax({
