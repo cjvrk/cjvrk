@@ -17,14 +17,19 @@ $.ajax({
   data: JSON.stringify({
     "camera": {
         // Ranges are inclusive.
-        "distanceScale": 2, // 0.5 to 4
-        "fieldOfViewDeg": 30, // 15 to 45
-        "xRotDeg": 0, // -20 to 20
-        "yRotDeg": 0 // -60 to 60
+        "distanceScale": 2, // 0.5 to 4 - Camera distance scale from the avatar
+        "fieldOfViewDeg": 30, // 15 to 45 - Camera Field Of View (FOV) in degrees, slight effect 
+        "xRotDeg": 0, // -20 to 20 - Camera X rotation degrees
+        "yRotDeg": 0 // -60 to 60 - Camera Y rotation degrees
     },
-    "emoteAssetId": 0, // emote asset id
+    "emoteAssetId": 0, // The assetId of an emote you own. example: 3696763549 in https://www.roblox.com/catalog/3696763549/Heisman-Pose
     // idleAnimationAssetId used to exist here, it has since been removed.
-    "thumbnailType": 1 // 1 = Closeup (headshot), 2 = FullBody (bodyshot). Closeup and FullBody can have different configurations.
+    "thumbnailType": 1 /* The thumbnailType
+    * 1 = Closeup (headshot)
+    * 2 = FullBody (bodyshot)
+    
+    Closeup and Fullbody can have separate configurations.
+    */
   })
 })
 // Logs `{success:true}` if success or text if failed
