@@ -6,7 +6,7 @@
 
 /*
 !! After your first time of setting a thumbnail configuration, the thumbnail of that type can not go back to how it was originally.
-!! (i.e., using Idle Animations, camera position). It can only be reverted if Roblox disables this feature again.
+!! (i.e., using Idle Animations, camera position). It can only be temporarily reverted if Roblox disables this feature again.
 */
 
 // doing ajax because easy csrf handling w/their middleware lol
