@@ -22,7 +22,9 @@ $.ajax({
         "xRotDeg": 0, // -20 to 20 - Camera X rotation in degrees
         "yRotDeg": 0 // -60 to 60 - Camera Y rotation in degrees
     },
-    "emoteAssetId": 0, // The assetId of an emote you own. 0 for no emote. example: 3696763549 in https://www.roblox.com/catalog/3696763549/Heisman-Pose
+    "emoteAssetId": 0, /* The assetId of an emote you own. 0 for no emote. 
+    * example: 3696763549 in https://www.roblox.com/catalog/3696763549/Heisman-Pose
+    */
     // idleAnimationAssetId used to exist here, it has since been removed.
     "thumbnailType": 1 /* The thumbnailType
     * 1 = Closeup (headshot)
