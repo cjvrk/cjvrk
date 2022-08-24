@@ -20,7 +20,7 @@ $.ajax({
         "distanceScale": 2, // 0.5 to 4 - Camera distance scale from the avatar
         "fieldOfViewDeg": 30, // 15 to 45 - Camera Field Of View (FOV) in degrees, slight effect
         "xRotDeg": 0, // -20 to 20 - Camera X rotation in degrees
-        // !!!!! Roblox **might** remove this field soon.
+        // !!!!! Roblox **might** remove this field soon:
         "yRotDeg": 0 // -60 to 60 - Camera Y rotation in degrees
     },
     "emoteAssetId": 0, /* The assetId of an emote you own. 0 for no emote. 
