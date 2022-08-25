@@ -17,7 +17,7 @@ $.ajax({
   data: JSON.stringify({
     "camera": {
         // Ranges are inclusive.
-        "distanceScale": 2, // 0.5 to 4 - Camera distance scale from the avatar
+        "distanceScale": 2, // 1 - Camera distance scale from the avatar (Old range: 0.5 - 4)
         "fieldOfViewDeg": 30, // 15 to 45 - Camera Field Of View (FOV) in degrees, slight effect
         // xRotDeg used to exist here.
         "yRotDeg": 0 // -60 to 60 - Camera Y rotation in degrees
